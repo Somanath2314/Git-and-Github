@@ -19,15 +19,9 @@ git checkout <file> Say if you messed up, you can use this you get back to the p
 
 
 ****************************To revert Back from staged*****************
+
+
 git rm --cached -r
-
-
-
-
-
-
-
-
 
 
 
@@ -80,3 +74,17 @@ apis.txt etc
 Do normal as before
 like git add . //here it wont add the files mentioned in the gitignore
 // And thats it done
+
+
+
+
+
+**********************Merging, Branch**************************
+
+to crete new branch git branch <name>
+to move to the other branch type git checkout <name>
+
+to get to know, currently on which branch u r working
+type git branch, and the * mark shows currently in which branch u r in
+
+say u r in main u have 3 files
