@@ -1,0 +1,17 @@
+First We will have the different Folder for the new project.
+Inside it we will write git init to initialise the local repo,
+Basically it will be hidden we can use ls -a to view all type of files
+
+touch tuto.txt
+//Wrote content inside the tuto
+git init
+// Some commands related to the git
+git init  - to initialise empty local repo
+git status - To get the details about the files, like which all are commited, needs to be tracked and nore
+git log     - TO list out all the previous commits
+git add     - To start tracking or to use the version control, we shld stage them, that is add the files saying these
+what i am interested in tracking
+git commit -m "message" - To commit changes
+git checkout <file> Say if you messed up, you can use this you get back to the prevoius commited part of the file
+
+next in tuto2.txt
