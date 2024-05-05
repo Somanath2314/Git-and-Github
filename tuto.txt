@@ -14,4 +14,20 @@ what i am interested in tracking
 git commit -m "message" - To commit changes
 git checkout <file> Say if you messed up, you can use this you get back to the prevoius commited part of the file
 
+********Now Everything Done***********
+If you want to collaborate with others, or if the system crashes everything gets crashed right?
+So we go for gitHub, where you can store everything online
+
+To start You did basic all above steps, Now go to gitHub
+Create new Repo,
+DO everyting required there,
+later copy the ssh code, and in ur project Folder
+add that online repo by 
+
+git remote add <name> <url>  //By convention we use name as origin
+//Go the branch
+git branch -M <branch>
+//Push online
+git push -u <name> <branch>  //-u is called linking
+
 next in tuto2.txt
