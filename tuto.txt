@@ -14,7 +14,27 @@ what i am interested in tracking
 git commit -m "message" - To commit changes
 git checkout <file> Say if you messed up, you can use this you get back to the prevoius commited part of the file
 
+
+
+
+
+****************************To revert Back from staged*****************
+git rm --cached -r
+
+
+
+
+
+
+
+
+
+
+
 ********Now Everything Done***********
+
+
+
 If you want to collaborate with others, or if the system crashes everything gets crashed right?
 So we go for gitHub, where you can store everything online
 
@@ -31,3 +51,32 @@ git branch -M <branch>
 git push -u <name> <branch>  //-u is called linking
 
 next in tuto2.txt
+
+
+
+
+
+*****************************Git Ignore***********************************************
+
+
+
+say For some files you dont want to upload or commit them
+Like may be passwords folder, or the packages folder npm i type
+because they keep on updating, so whenever the other collaborater works on his pc 
+he always does npm i, so no need to upload those type of files
+
+So to do them 
+
+We create the secrete file called gitignore //casing matters
+to create the secreate file shld start with .<name> 
+.gitignore
+to view ls -a 
+
+inside the gitIgnore, in each line, add the file names u want to Ignore
+like
+pass.txt
+apis.txt etc
+
+Do normal as before
+like git add . //here it wont add the files mentioned in the gitignore
+// And thats it done
